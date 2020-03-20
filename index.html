@@ -1,172 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>咕噜咕噜-皓月醒长空</title>
+
+	<style type="text/css">
+		body{
+			
+			background-image: url(demo_bg.jpg);
+			background-size: 1500px;
+			background-repeat: no-repeat;
+			background-position: center top;
+			background-attachment: scroll;
+
+		}
+
+		.nav{
+			text-align: center;
+
+		}
+
+		.nav a{
+			display: inline-block;
+			width: 120px;
+			height: 50px;
+			line-height: 50px;
+			color: white;
+			text-decoration: none;			
+		}
+
+		.nav a:hover{
+			color: skyblue;
+		}
+
+		.main{
+			width: 400px;
+			height: 600px;
+			color: pink;
+			background-color: green;
+			background-repeat: no-repeat;
+			position: absolute;top:1%;left:5%;margin-top: 200px;margin-left: 300px;
+		}
+	</style>
 </head>
 <body>
+	<div class="nav">
+		<a href="https://mp.weixin.qq.com/s?__biz=MzUzNjYxMjE4NQ==&mid=2247484211&idx=1&sn=d4828c31b63a3c4aa794cbff170edf5c&chksm=faf2df05cd855613eec5a2383b82320eb5e6ae9b2607b09461493219da992b9c01040f95e75d&token=1628214746&lang=zh_CN#rd" target="blank">前端01</a>
+		<a href="#">网站首页</a>
+		<a href="#">网站首页</a>
+		<a href="#">网站首页</a>
+		<a href="#">网站首页</a>
+		<a href="#">网站首页</a>
+	</div>
 
-	<table width="600" align="center" border="0">
-		<caption><h3>咕噜咕噜-皓月醒长空</h3></caption>
-		<tr>
-			<td>性别</td>
-			<td>
-				<input type="radio" name="sex"><img src="man.png" width="20">男
-				<input type="radio" name="sex"><img src="woman.png" width="20">女				
-			</td>
-		</tr>
-
-		<tr>
-			<td>生日</td>
-			<td>
-				<select>
-					<option>--请选择年份--</option>
-					<option>2000</option>
-					<option>1999</option>
-					<option>1998</option>
-					<option>1997</option>
-					<option>1996</option>
-					<option>1995</option>
-					<option>1994</option>
-					<option>1993</option>
-				</select>
-
-				<select>
-					<option>--请选择月份--</option>
-					<option>12</option>
-					<option>11</option>
-					<option>10</option>
-					<option>9</option>
-					<option>8</option>
-					<option>7</option>
-					<option>6</option>
-					<option>5</option>
-					<option>4</option>
-					<option>3</option>
-					<option>2</option>
-					<option>1</option>
-				</select>
-
-				<select>
-					<option>--请选择日期--</option>
-					<option>20</option>
-					<option>19</option>
-					<option>18</option>
-					<option>17</option>
-					<option>16</option>
-					<option>15</option>
-					<option>14</option>
-					<option>13</option>
-					<option>12</option>
-					<option>11</option>
-					<option>10</option>
-					<option>9</option>
-					<option>8</option>
-					<option>7</option>
-					<option>6</option>
-					<option>5</option>
-					<option>4</option>
-					<option>3</option>
-					<option>2</option>
-					<option>1</option>
-				</select>
-				
-			</td>
-		</tr>
-
-		<tr>
-			<td>所在地区</td>
-			<td>
-				<input type="text" name="dec" value="北京">
-			</td>
-		</tr>
-
-		<tr>
-			<td>婚姻状况</td>
-			<td>
-				<input type="radio" name="marry" > 未婚
-				<input type="radio" name="marry" > 已婚
-			</td>
-		</tr>
-
-		<tr>
-			<td>学历</td>
-			<td>
-				<input type="text" name="education" value="幼儿园">
-			</td>
-		</tr>
-
-		<tr>
-			<td>手机号</td>
-			<td>
-				<input type="text" name="phone" value="18888">
-			</td>
-		</tr>
-
-		<tr>
-			<td>昵称</td>
-			<td>
-				<input type="text" name="username" value="咕噜咕噜-皓月醒长空">
-			</td>
-		</tr>
-
-		<tr>
-			<td>性格类型</td>
-			<td>
-				<input type="checkbox" name="love">妩媚
-				<input type="checkbox" name="love">可爱
-				<input type="checkbox" name="love">风骚
-				<input type="checkbox" name="love">御姐
-			</td>
-		</tr>
-
-		<tr>
-			<td>自我介绍</td>
-			<td>
-				<textarea>自我介绍</textarea>
-			</td>
-		</tr>
-
-		<tr>
-			<td></td>
-			<td>
-				<input type="image" src="立即注册.png" width="200" name="zhuce">
-			</td>
-		</tr>
-
-		<tr>
-			<td></td>
-			<td>
-				<input type="checkbox" name="argee" checked="checked">我同意注册条款
-			</td>
-		</tr>
-
-		<tr>
-			<td></td>
-			<td>
-				<a href="http://www.baidu.com">我是会员立即注册 </a>
-			</td>
-		</tr>
-
-		<tr>
-			<td></td>
-			<td>
-				<h3>我承诺</h3>
-				<ul>
-					<li>年满十八岁</li>
-					<li>遵纪守法</li>
-
-				</ul>
-			</td>
-		</tr>
-
-		<tr>
-			<td></td>
-			<td>
-				<h4>点关注，不迷路</h4>
-				<a href="logo2.png"><img src="CSS第一天思维导图.png" width="200"></a>
-			</td>
-		</tr>
-	</table>
-
+	<div class="main">111</div>
+	
+	
 </body>
 </html>
